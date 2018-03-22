@@ -30,7 +30,7 @@ class ProgrammersListTableViewController: UITableViewController {
 
         self.presenter.configure(cell: cell, forRow: indexPath.row)
 
-        return cell
+        return cell as! UITableViewCell
     }
 
 }
