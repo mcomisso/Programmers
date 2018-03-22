@@ -13,16 +13,24 @@ class ProgrammerListPresenter {
     // This is readable by anywhere
     var programmerResponses: [ProgrammerResponse] = []
 
+    private let useCase: ShowProgrammerListUseCase
+
+    init(useCase: ShowProgrammerListUseCase) {
+        self.useCase = useCase
+    }
 
     var numberOfRows: Int {
         return programmerResponses.count
     }
 
     func viewReady() {
-        
+        useCase.showProgrammers()
     }
 
     func configure(cell: ProgrammerCellView, forRow row: Int) {
+        let programmer = programmerResponses[row]
+        cell.display(name: programmer.fullName)
+        cell.display(isFavourite: programmer.favourite)
 
     }
 }
