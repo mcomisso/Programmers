@@ -14,7 +14,7 @@ class ProgrammerTableViewCell: UITableViewCell {
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var favouriteLabel: UILabel!
 
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
