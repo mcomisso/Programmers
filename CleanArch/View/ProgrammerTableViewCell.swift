@@ -37,8 +37,8 @@ extension ProgrammerTableViewCell: ProgrammerCellView {
         self.dateLabel.text = date
     }
 
-    func display(favourite: Bool) {
-        self.favouriteLabel.isHidden = !favourite
+    func display(isFavourite: Bool) {
+        self.favouriteLabel.isHidden = !isFavourite
     }
 
 

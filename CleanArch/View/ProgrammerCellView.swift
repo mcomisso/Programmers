@@ -11,5 +11,5 @@ import Foundation
 protocol ProgrammerCellView {
     func display(name: String)
     func display(date: String) // This is a string, and not a Date, because I don't want to transform anything inside the view. No logic in Views.
-    func display(favourite: Bool)
+    func display(isFavourite: Bool)
 }
