@@ -18,6 +18,7 @@
 		225FA6C82063FF10000AD5C0 /* ProgrammerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FA6C72063FF10000AD5C0 /* ProgrammerResponse.swift */; };
 		225FA6CA2063FFF7000AD5C0 /* ProgrammerListPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FA6C92063FFF7000AD5C0 /* ProgrammerListPresentation.swift */; };
 		225FA6CD2064018B000AD5C0 /* ProgrammerListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FA6CC2064018B000AD5C0 /* ProgrammerListPresenter.swift */; };
+		225FA6CF20640392000AD5C0 /* ProgrammersListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FA6CE20640392000AD5C0 /* ProgrammersListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		225FA6C72063FF10000AD5C0 /* ProgrammerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammerResponse.swift; sourceTree = "<group>"; };
 		225FA6C92063FFF7000AD5C0 /* ProgrammerListPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammerListPresentation.swift; sourceTree = "<group>"; };
 		225FA6CC2064018B000AD5C0 /* ProgrammerListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammerListPresenter.swift; sourceTree = "<group>"; };
+		225FA6CE20640392000AD5C0 /* ProgrammersListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammersListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				225FA6C22063FCAB000AD5C0 /* Interactor */,
 				225FA6BF2063FAE4000AD5C0 /* Entities */,
 				225FA6B12063F3F8000AD5C0 /* Main.storyboard */,
+				225FA6CE20640392000AD5C0 /* ProgrammersListTableViewController.swift */,
 				225FA6B42063F3F8000AD5C0 /* Assets.xcassets */,
 				225FA6B62063F3F8000AD5C0 /* LaunchScreen.storyboard */,
 				225FA6B92063F3F8000AD5C0 /* Info.plist */,
@@ -182,6 +185,7 @@
 				225FA6B02063F3F8000AD5C0 /* ViewController.swift in Sources */,
 				225FA6C42063FCDA000AD5C0 /* ShowProgrammerListUseCase.swift in Sources */,
 				225FA6C12063FAF1000AD5C0 /* Programmer.swift in Sources */,
+				225FA6CF20640392000AD5C0 /* ProgrammersListTableViewController.swift in Sources */,
 				225FA6C62063FDE2000AD5C0 /* EntityGateway.swift in Sources */,
 				225FA6AE2063F3F8000AD5C0 /* AppDelegate.swift in Sources */,
 				225FA6C82063FF10000AD5C0 /* ProgrammerResponse.swift in Sources */,
