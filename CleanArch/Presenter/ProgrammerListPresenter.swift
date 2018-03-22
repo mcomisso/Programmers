@@ -9,9 +9,15 @@
 import Foundation
 
 class ProgrammerListPresenter {
+
+    // This is readable by anywhere
     var programmerResponses: [ProgrammerResponse] = []
+    func viewReady() {
+
+    }
 }
 
+// The USE CASE shouldn't know about this
 extension ProgrammerListPresenter: ProgrammerListPresentation {
 
     func present(programmers: [ProgrammerResponse]) {

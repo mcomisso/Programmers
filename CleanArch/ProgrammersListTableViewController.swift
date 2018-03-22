@@ -10,9 +10,12 @@ import UIKit
 
 class ProgrammersListTableViewController: UITableViewController {
 
+    var presenter: ProgrammerListPresenter!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
+        presenter.viewReady()
     }
 
     // MARK: - Table view data source
