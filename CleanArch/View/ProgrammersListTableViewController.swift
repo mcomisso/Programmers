@@ -25,4 +25,12 @@ class ProgrammersListTableViewController: UITableViewController {
         return self.presenter.numberOfRows
     }
 
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CellIdentifier") as! ProgrammerCellView
+
+        self.presenter.configure(cell: cell, forRow: indexPath.row)
+
+        return cell
+    }
+
 }

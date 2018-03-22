@@ -21,6 +21,10 @@ class ProgrammerListPresenter {
     func viewReady() {
 
     }
+
+    func configure(cell: ProgrammerCellView, forRow row: Int) {
+
+    }
 }
 
 // The USE CASE shouldn't know about this
