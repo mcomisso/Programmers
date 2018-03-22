@@ -8,10 +8,14 @@
 
 import Foundation
 
-class ProgrammerListPresenter: ProgrammerListPresentation {
+class ProgrammerListPresenter {
+    var programmerResponses: [ProgrammerResponse] = []
+}
+
+extension ProgrammerListPresenter: ProgrammerListPresentation {
 
     func present(programmers: [ProgrammerResponse]) {
-
+        self.programmerResponses = programmers
     }
 
 }
