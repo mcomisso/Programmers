@@ -15,11 +15,11 @@ class ProgrammerListPresenter {
 
 
     var numberOfRows: Int {
-        return 0
+        return programmerResponses.count
     }
 
     func viewReady() {
-
+        
     }
 
     func configure(cell: ProgrammerCellView, forRow row: Int) {
