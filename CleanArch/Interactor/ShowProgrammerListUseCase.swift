@@ -23,11 +23,10 @@ class ShowProgrammerListUseCase {
 
 
     /*11. Presentation calls */
-    let presenter: ProgrammerListPresentation
+    var presenter: ProgrammerListPresentation!
 
-    init(entityGateway: EntityGateway, presenter: ProgrammerListPresentation) {
+    init(entityGateway: EntityGateway) {
         self.entityGateway = entityGateway
-        self.presenter = presenter
     }
 
     /* 3. Create the first method to present the programmers */
