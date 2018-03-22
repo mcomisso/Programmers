@@ -27,3 +27,19 @@ class ProgrammerTableViewCell: UITableViewCell {
     }
 
 }
+
+extension ProgrammerTableViewCell: ProgrammerCellView {
+    func display(name: String) {
+        self.nameLabel.text = name
+    }
+
+    func display(date: String) {
+        self.dateLabel.text = date
+    }
+
+    func display(favourite: Bool) {
+        self.favouriteLabel.isHidden = !favourite
+    }
+
+
+}
