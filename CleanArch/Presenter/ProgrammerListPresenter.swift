@@ -12,6 +12,12 @@ class ProgrammerListPresenter {
 
     // This is readable by anywhere
     var programmerResponses: [ProgrammerResponse] = []
+
+
+    var numberOfRows: Int {
+        return 0
+    }
+
     func viewReady() {
 
     }
