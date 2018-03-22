@@ -32,6 +32,7 @@ class ProgrammerListPresenter {
         cell.display(name: programmer.fullName)
         cell.display(isFavourite: programmer.favourite)
 
+        cell.display(date: programmer.date.relativeDescription())
     }
 }
 

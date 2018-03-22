@@ -21,6 +21,7 @@
 		225FA6CF20640392000AD5C0 /* ProgrammersListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FA6CE20640392000AD5C0 /* ProgrammersListTableViewController.swift */; };
 		225FA6D220640650000AD5C0 /* ProgrammerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FA6D120640650000AD5C0 /* ProgrammerTableViewCell.swift */; };
 		225FA6D420640774000AD5C0 /* ProgrammerCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FA6D320640774000AD5C0 /* ProgrammerCellView.swift */; };
+		225FA6D620640BFE000AD5C0 /* Date+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FA6D520640BFE000AD5C0 /* Date+Formatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		225FA6CE20640392000AD5C0 /* ProgrammersListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammersListTableViewController.swift; sourceTree = "<group>"; };
 		225FA6D120640650000AD5C0 /* ProgrammerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammerTableViewCell.swift; sourceTree = "<group>"; };
 		225FA6D320640774000AD5C0 /* ProgrammerCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammerCellView.swift; sourceTree = "<group>"; };
+		225FA6D520640BFE000AD5C0 /* Date+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formatter.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				225FA6AF2063F3F8000AD5C0 /* ViewController.swift */,
 				225FA6C52063FDE2000AD5C0 /* EntityGateway.swift */,
 				225FA6C72063FF10000AD5C0 /* ProgrammerResponse.swift */,
+				225FA6D520640BFE000AD5C0 /* Date+Formatter.swift */,
 				225FA6CB2063FFFE000AD5C0 /* Presenter */,
 				225FA6C22063FCAB000AD5C0 /* Interactor */,
 				225FA6BF2063FAE4000AD5C0 /* Entities */,
@@ -199,6 +202,7 @@
 				225FA6CD2064018B000AD5C0 /* ProgrammerListPresenter.swift in Sources */,
 				225FA6D220640650000AD5C0 /* ProgrammerTableViewCell.swift in Sources */,
 				225FA6B02063F3F8000AD5C0 /* ViewController.swift in Sources */,
+				225FA6D620640BFE000AD5C0 /* Date+Formatter.swift in Sources */,
 				225FA6C42063FCDA000AD5C0 /* ShowProgrammerListUseCase.swift in Sources */,
 				225FA6C12063FAF1000AD5C0 /* Programmer.swift in Sources */,
 				225FA6CF20640392000AD5C0 /* ProgrammersListTableViewController.swift in Sources */,
