@@ -22,6 +22,7 @@
 		225FA6D220640650000AD5C0 /* ProgrammerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FA6D120640650000AD5C0 /* ProgrammerTableViewCell.swift */; };
 		225FA6D420640774000AD5C0 /* ProgrammerCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FA6D320640774000AD5C0 /* ProgrammerCellView.swift */; };
 		225FA6D620640BFE000AD5C0 /* Date+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FA6D520640BFE000AD5C0 /* Date+Formatter.swift */; };
+		225FA6D920640E7A000AD5C0 /* ProgrammersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FA6D820640E7A000AD5C0 /* ProgrammersRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		225FA6D120640650000AD5C0 /* ProgrammerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammerTableViewCell.swift; sourceTree = "<group>"; };
 		225FA6D320640774000AD5C0 /* ProgrammerCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammerCellView.swift; sourceTree = "<group>"; };
 		225FA6D520640BFE000AD5C0 /* Date+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formatter.swift"; sourceTree = "<group>"; };
+		225FA6D820640E7A000AD5C0 /* ProgrammersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammersRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 				225FA6AF2063F3F8000AD5C0 /* ViewController.swift */,
 				225FA6C52063FDE2000AD5C0 /* EntityGateway.swift */,
 				225FA6C72063FF10000AD5C0 /* ProgrammerResponse.swift */,
-				225FA6D520640BFE000AD5C0 /* Date+Formatter.swift */,
+				225FA6D820640E7A000AD5C0 /* ProgrammersRepository.swift */,
+				225FA6D720640E61000AD5C0 /* UIKit Extensions */,
 				225FA6CB2063FFFE000AD5C0 /* Presenter */,
 				225FA6C22063FCAB000AD5C0 /* Interactor */,
 				225FA6BF2063FAE4000AD5C0 /* Entities */,
@@ -124,6 +127,14 @@
 				225FA6CE20640392000AD5C0 /* ProgrammersListTableViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		225FA6D720640E61000AD5C0 /* UIKit Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				225FA6D520640BFE000AD5C0 /* Date+Formatter.swift */,
+			);
+			path = "UIKit Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +219,7 @@
 				225FA6CF20640392000AD5C0 /* ProgrammersListTableViewController.swift in Sources */,
 				225FA6C62063FDE2000AD5C0 /* EntityGateway.swift in Sources */,
 				225FA6AE2063F3F8000AD5C0 /* AppDelegate.swift in Sources */,
+				225FA6D920640E7A000AD5C0 /* ProgrammersRepository.swift in Sources */,
 				225FA6C82063FF10000AD5C0 /* ProgrammerResponse.swift in Sources */,
 				225FA6CA2063FFF7000AD5C0 /* ProgrammerListPresentation.swift in Sources */,
 			);
